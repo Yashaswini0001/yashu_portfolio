@@ -1,12 +1,11 @@
-// src/components/Header.tsx
 import React from 'react';
-import '../index.css'
+import '../index.css';
+
 const Header: React.FC = () => (
-  <header className="bg-blue-800 text-white p-4">
-    <div className="container mx-auto">
-      <h1 className="text-3xl font-bold">Yashashwini</h1>
+  <header style={{ backgroundColor: '#0C0A33' }} className="text-white font-bold p-4">
+    <div className="container mx-auto my-5">
       <nav>
-        <ul className="flex space-x-4">
+        <ul className="flex justify-end space-x-5">
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
