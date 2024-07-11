@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div id='c1' className="w-full md:w-1/2 px-4 -mx-9 sm:-mt-24">
           <h2 className="text-4xl font-bold text-center text-blue-900">Get in touch</h2>
-          <p className="text-center text-xl py-6">I'm always open to new opportunities and collaborations. Feel free to reach out with any questions, project inquiries, or simply to connect. I look forward to hearing from you!</p>
+          <p className="text-center text-xl py-6 ml-4">I'm always open to new opportunities and collaborations. Feel free to reach out with any questions, project inquiries, or simply to connect. I look forward to hearing from you!</p>
           <p className='text-xl mt-6 text-center'>
             <FaEnvelope className="inline mr-2" /> Email: yashashwinis303@gmail.com
           </p>

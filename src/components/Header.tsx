@@ -40,7 +40,7 @@ const Header: React.FC = () => {
         </button>
         <nav
           ref={navRef}
-          className={`fixed sm:static sm:flex top-0 right-0 h-[60vh] bg-white sm:bg-transparent w-1/2 sm:w-auto transform ${
+          className={`fixed sm:static sm:flex top-0 right-0 h-[65vh] bg-white sm:bg-transparent w-1/2 sm:w-auto transform ${
             isOpen ? 'translate-x-0' : 'translate-x-full'
           } sm:transform-none transition-transform duration-300 ease-in-out z-50 shadow-lg`}
         >
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
               <FaTimes />
             </button>
           )}
-          <ul className="flex flex-col sm:flex-row justify-end space-y-5 sm:space-y-0 sm:space-x-5 p-8 sm:p-4 text-black sm:text-white">
+          <ul className="flex flex-col sm:flex-row justify-end space-y-5 sm:space-y-0 sm:space-x-5 p-10 sm:p-4 text-black sm:text-white mt-10 sm:mt-2">
             <li><a href="#about" onClick={handleLinkClick}>About</a></li>
             <li><a href="#projects" onClick={handleLinkClick}>Projects</a></li>
             <li><a href="#skills" onClick={handleLinkClick}>Skills</a></li>
